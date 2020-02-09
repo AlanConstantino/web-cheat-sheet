@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* 
+   If you have issues on mobile or other browsers
+   uncomment the following code and remove
+   min-height: 100vh from the body tag.
+*/
+/* 
+html {
+    height: 100%;
+}
+body {
+    min-height: 100%;
+} */
+
+
+body {
+    background-color: blue;
+    color: white;
+    display: flex;   
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: green;
+}
+
+footer {
+    background-color: red;
+    margin-top: auto;
+}
