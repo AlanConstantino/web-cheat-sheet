@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 16px;
 }
 
 /* 
@@ -20,6 +21,7 @@ body {
 body {
     background-color: blue;
     color: white;
+    
     display: flex;   
     flex-direction: column;
     min-height: 100vh;

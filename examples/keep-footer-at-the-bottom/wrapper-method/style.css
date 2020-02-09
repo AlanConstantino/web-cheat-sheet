@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+}
+body {
+    background-color: blue;
+    color: white;   
+}
+
+
+/* 
+    All of the sections labeled "Here" you
+    have to change to resize the footer.
+*/
+
+html, body  {
+    height: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+main {
+    margin: 0;
+    padding: 0;
+    padding: 20px;
+    padding-bottom: 30px; /* Here */
+}
+footer {
+    height: 30px; /* Here */
+    margin-top: -30px; /* Here */
+}
